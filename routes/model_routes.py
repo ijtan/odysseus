@@ -71,6 +71,36 @@ _PROVIDER_CURATED = {
     "xai": [
         "grok-4.3", "grok-4", "grok-4-fast", "grok-3", "grok-3-fast",
     ],
+    "opencode-go": [
+        "glm-5.1", "glm-5",
+        "kimi-k2.6", "kimi-k2.5",
+        "mimo-v2.5-pro", "mimo-v2.5",
+        "minimax-m2.7", "minimax-m2.5",
+        "qwen3.7-max", "qwen3.6-plus",
+        "deepseek-v4-pro", "deepseek-v4-flash",
+    ],
+    "opencode-zen": [
+        # GPT models
+        "gpt-5.5", "gpt-5.5-pro", "gpt-5.4", "gpt-5.4-pro", "gpt-5.4-mini", "gpt-5.4-nano",
+        "gpt-5.3-codex", "gpt-5.3-codex-spark",
+        "gpt-5.2", "gpt-5.2-codex",
+        "gpt-5.1", "gpt-5.1-codex", "gpt-5.1-codex-max", "gpt-5.1-codex-mini",
+        "gpt-5", "gpt-5-codex", "gpt-5-nano",
+        # Claude models
+        "claude-opus-4-8", "claude-opus-4-7", "claude-opus-4-6", "claude-opus-4-5", "claude-opus-4-1",
+        "claude-sonnet-4-6", "claude-sonnet-4-5", "claude-sonnet-4",
+        "claude-haiku-4-5", "claude-3-5-haiku",
+        # Gemini
+        "gemini-3.5-flash", "gemini-3.1-pro", "gemini-3-flash",
+        # Open models
+        "qwen3.6-plus", "qwen3.5-plus",
+        "minimax-m2.7", "minimax-m2.5",
+        "glm-5.1", "glm-5",
+        "kimi-k2.6", "kimi-k2.5",
+        "grok-build-0.1",
+        # Free models
+        "big-pickle", "deepseek-v4-flash-free", "mimo-v2.5-free", "nemotron-3-super-free",
+    ],
 }
 
 # Map URL substrings → curated-list keys for providers whose _detect_provider()
@@ -85,6 +115,8 @@ _URL_TO_CURATED = {
     "api.fireworks.ai": "fireworks",
     "generativelanguage.googleapis.com": "google",
     "api.x.ai": "xai",
+    "opencode.ai/zen/go": "opencode-go",
+    "opencode.ai/zen": "opencode-zen",
     "openrouter.ai": "openrouter",
 }
 
